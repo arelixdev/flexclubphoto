@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: seashell;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Header Section*/
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 1.875rem 4.125rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid seashell;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1 span{
+    color: black;
+    -webkit-text-stroke: 1px seashell; 
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header a:hover{
+    cursor: pointer;
+    
+}
+
+header ul li{
+    list-style: none;
+    margin: 0 0.625rem;
+}
+
+header ul li:last-child{
+    background: seashell;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.625rem;
+}
+
+header ul li:last-child:hover{
+    background: silver;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.625rem;
+}
+
+header ul li:last-child:hover a{
+    background-color: silver;
+    color: black;
+}
+
+header ul li:last-child a{
+    background-color: seashell;
+    color: black;
+}
+
+/*Banner Section*/
+
+.banner{
+    background: url('image/banner2.jpg');
+    background-size: cover;
+    background-position: 100% 60%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.banner h1{
+    font-size: 10rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.banner h1 span{
+    color: black;
+    -webkit-text-stroke: 1px seashell; 
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.banner p{
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 3rem;
+}
+
+.banner a{
+    font-size: 1.5rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+.content .btn{
+    background: seashell;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.content .btn:hover{
+    background: silver;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.625rem;
+}
+
+/*Main Section*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: #020202;
+    margin: -100px 5% 0;
+    padding: 3.125rem;
+}
+
+main section{
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main h2{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+main p{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+main h3{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.gallery .images{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.gallery .images img{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 8px;
+}
+
+.findus, .timing{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 25px 0;
+}
+
+.address{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contact form{
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.flex-contact{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid seashell;
+    border-radius: 4px;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid seashell;
+    resize: none;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+footer, footer h5{
+    background-color: seashell;
+    
+}
+
+footer h5{
+    color: black;
+}
